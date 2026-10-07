@@ -1,0 +1,37 @@
+[
+  {
+    "fichier": "Atelier IA citoyen _ guide et publication.png",
+    "octets": 1967507,
+    "sha256": "21554fab0b6b5a26ad154ef61cc4201a8d768263a8d2c9230e4bf14f193b142b"
+  },
+  {
+    "fichier": "guide-source-pedagogique-IA-LN-IA.docx",
+    "octets": 61617,
+    "sha256": "f350fc43b0eddfcc08b1eaa0f4a46cdfc68743e3c2c72cda171e003e37c6a23b"
+  },
+  {
+    "fichier": "IA-selon-Sam-Altman.pdf",
+    "octets": 5095520,
+    "sha256": "fe35477807026adcc239de5d76c74993b8e60aea3e09a0f023e11ca7abfc5bca"
+  },
+  {
+    "fichier": "instructions-scénario-atelier-citoyen.md",
+    "octets": 14303,
+    "sha256": "e98b5c3dd51748cb7bc37caf48980181677d055afb07cc4d292aac5befb97617"
+  },
+  {
+    "fichier": "Livre-Maître LN-IA Présentation Pro pédagogique.pdf",
+    "octets": 11568819,
+    "sha256": "a06de20085c67d58e4b77e1a7735ef2695074610dd17c06a0bb8609499953509"
+  },
+  {
+    "fichier": "L’intelligence artificielle _ vision et défis.png",
+    "octets": 2145969,
+    "sha256": "6196b78a43b137a73f625321f6852d8ed03d94203f9468e73b557ec384382084"
+  },
+  {
+    "fichier": "prompt-première-consigne.md",
+    "octets": 1856,
+    "sha256": "1937581245ae1396d5c35d4fb41480402b068011f04b21dcd554d36d357842a9"
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "name": "atelier-ia-citoyen-ln-ia",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "check": "node scripts/check-content.mjs",
+    "test": "node --test",
+    "validate": "npm run check && npm test && npm run build"
+  },
+  "devDependencies": {
+    "vite": "^8.0.0"
+  }
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "title": "Un modèle",
+    "text": "Un système entraîné à produire ou interpréter du contenu. Une réponse plausible peut comporter une erreur."
+  },
+  {
+    "title": "Une application",
+    "text": "L’interface utilisée par une personne. ChatGPT est une application ; un modèle GPT est un composant possible."
+  },
+  {
+    "title": "Un agent",
+    "text": "Un système qui associe un modèle et des outils pour réaliser plusieurs étapes dans un périmètre autorisé."
+  },
+  {
+    "title": "Garder le contrôle",
+    "text": "Fixer le besoin, limiter les données, vérifier le résultat et décider de son usage."
+  }
+]

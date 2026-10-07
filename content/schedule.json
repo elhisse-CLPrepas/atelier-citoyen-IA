@@ -1,0 +1,56 @@
+[
+  {
+    "start": 0,
+    "end": 15,
+    "title": "Diagnostic et attentes",
+    "result": "Une réponse individuelle de départ."
+  },
+  {
+    "start": 15,
+    "end": 35,
+    "title": "Modèle, application et agent",
+    "result": "Une reformulation avec les bons termes."
+  },
+  {
+    "start": 35,
+    "end": 60,
+    "title": "Vérifier une affirmation",
+    "result": "Une fiche de source et un verdict justifié."
+  },
+  {
+    "start": 60,
+    "end": 85,
+    "title": "Apprendre avec un indice",
+    "result": "Une solution expliquée sans assistance."
+  },
+  {
+    "start": 85,
+    "end": 95,
+    "title": "Pause et rotation des rôles",
+    "result": "Changer demandeur, opérateur, vérificateur et rapporteur."
+  },
+  {
+    "start": 95,
+    "end": 120,
+    "title": "Déléguer une invitation",
+    "result": "Une consigne avec périmètre et validations."
+  },
+  {
+    "start": 120,
+    "end": 150,
+    "title": "Produire une fiche citoyenne",
+    "result": "Une fiche d’une page avec sources."
+  },
+  {
+    "start": 150,
+    "end": 170,
+    "title": "Relecture croisée",
+    "result": "Deux corrections ou justifications précises."
+  },
+  {
+    "start": 170,
+    "end": 180,
+    "title": "Bilan individuel",
+    "result": "Une compétence à pratiquer cette semaine."
+  }
+]

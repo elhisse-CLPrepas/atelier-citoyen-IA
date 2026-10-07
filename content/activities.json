@@ -1,0 +1,89 @@
+[
+  {
+    "id": "verifier-modele",
+    "title": "Vérifier une affirmation sur un modèle d’IA",
+    "duration": 25,
+    "objective": "Distinguer ce que prouve une source de ce qu’elle ne permet pas d’affirmer.",
+    "guideSection": "Exercice 1 et page annoncée 15",
+    "statement": "Puisque GPT-6.1 Sol figure au catalogue API d’OpenAI, il est disponible dans toutes les offres ChatGPT.",
+    "instructions": [
+      "Lire l’affirmation et relever les mots « toutes les offres ».",
+      "Ouvrir la source officielle, ou lire l’extrait embarqué ci-dessous.",
+      "Choisir un verdict et citer le passage qui le justifie.",
+      "Reformuler en conservant seulement ce qui est démontré."
+    ],
+    "expected": "Un verdict justifié, une source datée et une reformulation exacte.",
+    "answer": "non-etabli",
+    "correction": "La source confirme un modèle et son identifiant API. Elle ne décrit pas l’accès dans toutes les offres ChatGPT. La disponibilité générale dans ces offres est donc non établie à partir de cette source. Reformulation : « GPT-6.1 Sol figure au catalogue API d’OpenAI, sous l’identifiant gpt-6.1-sol. L’accès dans une offre ChatGPT doit être vérifié séparément. »",
+    "success": "La justification distingue API et application, cite la source et évite une généralisation.",
+    "sourceIds": [
+      "models",
+      "sol"
+    ],
+    "evidence": "Synthèse de la page officielle consultée le 7 octobre 2026 : GPT-6.1 Sol est décrit comme un modèle pour des travaux complexes ; son identifiant API est gpt-6.1-sol. Cette page ne permet pas de conclure à sa présence dans toutes les offres ChatGPT.",
+    "evidenceType": "Synthèse pédagogique, pas une citation",
+    "historicalNote": "Le guide proposait une affirmation sur la disponibilité au lancement. La présente activité utilise le catalogue API vérifié. La date de lancement et la distinction Work/Chat du guide restent à recontrôler avant réemploi."
+  },
+  {
+    "id": "apprendre-indice",
+    "title": "Apprendre avec un indice",
+    "duration": 25,
+    "objective": "Comprendre pourquoi deux variations opposées de 20 % ne s’annulent pas.",
+    "guideSection": "Exercice 2 et page annoncée 15",
+    "statement": "Un article coûte 200 dirhams. Son prix baisse de 20 %, puis augmente de 20 %. Revient-il au prix initial ?",
+    "instructions": [
+      "Écrire une première tentative sans assistance.",
+      "Demander un indice sur la base de calcul, sans demander le résultat.",
+      "Calculer le prix final et expliquer les deux bases.",
+      "Résoudre sans outil la variante à 300 dirhams."
+    ],
+    "expected": "Un prix final expliqué et une variante résolue sans aide.",
+    "correction": "La baisse donne 200 × 0,8 = 160 DH. L’augmentation porte sur 160 : 160 × 1,2 = 192 DH. Le prix final est inférieur de 8 DH au prix initial. Pour 300 DH, le résultat est 288 DH. Les bases de calcul sont différentes.",
+    "success": "Obtenir 192 DH et 288 DH, puis expliquer les bases sans assistance.",
+    "sourceIds": [
+      "guide"
+    ],
+    "prompt": "Ne donne pas immédiatement le résultat. Demande ma tentative. Aide-moi à identifier la base de chaque pourcentage, avec un indice à la fois. Propose ensuite une variante sans aide."
+  },
+  {
+    "id": "deleguer-invitation",
+    "title": "Déléguer une invitation",
+    "duration": 25,
+    "objective": "Définir un périmètre et garder la décision de diffusion.",
+    "guideSection": "Exercice 3 et page annoncée 16",
+    "statement": "Une association prépare une invitation. Son programme est validé et elle possède une liste de contacts. Quelle consigne donner à un agent ?",
+    "instructions": [
+      "Préciser le résultat et les documents nécessaires.",
+      "Conserver date, horaire et lieu ; signaler les informations manquantes.",
+      "Prévoir une relecture du brouillon.",
+      "Identifier les validations avant toute diffusion."
+    ],
+    "expected": "Une consigne qui sépare rédaction et envoi.",
+    "correction": "Utiliser seulement le programme pour rédiger. La liste de contacts est inutile à ce stade. Demander une invitation d’une page et une version courte, puis une relecture humaine. Un éventuel envoi nécessite une autorisation distincte, le contrôle des destinataires, du canal et du texte final.",
+    "success": "Le programme est la seule entrée de rédaction et l’envoi reste soumis à validation.",
+    "sourceIds": [
+      "guide"
+    ],
+    "prompt": "Prépare une invitation à partir du programme joint. Conserve exactement la date, l’horaire et le lieu. Signale tout élément manquant. Crée un brouillon d’une page et une version courte. Présente les textes pour relecture avant toute diffusion."
+  },
+  {
+    "id": "produire-fiche",
+    "title": "Produire une fiche citoyenne",
+    "duration": 30,
+    "objective": "Créer un contenu d’une page utile à un public précis.",
+    "guideSection": "Atelier trois heures, séquence 120 à 150 minutes",
+    "statement": "Choisissez un besoin réel : expliquer une procédure, préparer une réunion ou vérifier une information.",
+    "instructions": [
+      "Décrire le lecteur, le besoin et le format.",
+      "Choisir deux sources et retirer les données personnelles inutiles.",
+      "Produire une première version, puis vérifier chaque fait essentiel.",
+      "Faire relire et garder les corrections."
+    ],
+    "expected": "Une fiche d’une page avec sources, date et limites.",
+    "correction": "Exemple de démarche : fiche pour un parent sur la vérification d’une information. Indiquer auteur, date, source et passage justificatif ; distinguer fait et opinion ; conserver les incertitudes. Il n’existe pas un texte unique attendu : juger l’utilité, l’exactitude et la compréhension.",
+    "success": "Le lecteur peut utiliser la fiche ; ses faits essentiels sont vérifiés et les limites sont explicites.",
+    "sourceIds": [
+      "guide"
+    ]
+  }
+]

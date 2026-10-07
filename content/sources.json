@@ -1,0 +1,59 @@
+[
+  {
+    "id": "guide",
+    "title": "Guide source pédagogique LN-IA",
+    "date": "2026-10-07",
+    "url": "ressources/guide-source-pedagogique-IA-LN-IA.docx",
+    "local": true,
+    "status": "Référence pédagogique fournie",
+    "note": "Version 1.0 ; pagination annoncée dans le sommaire, non vérifiée par rendu."
+  },
+  {
+    "id": "models",
+    "title": "OpenAI · Catalogue des modèles API",
+    "date": "2026-10-07",
+    "url": "https://developers.openai.com/api/docs/models",
+    "status": "Consulté",
+    "note": "Le catalogue décrit l’API. Il ne démontre pas l’accès à chaque modèle dans toutes les offres ChatGPT."
+  },
+  {
+    "id": "all-models",
+    "title": "OpenAI · Tous les modèles",
+    "date": "2026-10-07",
+    "url": "https://developers.openai.com/api/docs/models/all",
+    "status": "Consulté",
+    "note": "Familles GPT-6, modèles image et audio confirmés dans le catalogue."
+  },
+  {
+    "id": "sol",
+    "title": "OpenAI · GPT-6.1 Sol",
+    "date": "2026-10-07",
+    "url": "https://developers.openai.com/api/docs/models/gpt-6.1-sol",
+    "status": "Consulté",
+    "note": "Identifiant API gpt-6.1-sol. L’accès effectif dépend du compte et du produit."
+  },
+  {
+    "id": "learning",
+    "title": "Bastani et al. · Generative AI without guardrails can harm learning",
+    "date": "2026-10-07",
+    "url": "https://hamsabastani.github.io/education_llm.pdf",
+    "status": "Passages pertinents vérifiés",
+    "note": "Étude en mathématiques en Turquie : baisse de 17 % à l’épreuve sans aide pour GPT Base. Ne pas généraliser à tout apprentissage."
+  },
+  {
+    "id": "itu",
+    "title": "UIT · Facts and Figures 2025",
+    "date": "2026-10-07",
+    "url": "https://www.itu.int/en/ITU-D/Statistics/Pages/facts/default.aspx",
+    "status": "Consulté",
+    "note": "2,2 milliards de personnes hors ligne : estimation pour 2025, pas pour 2026."
+  },
+  {
+    "id": "unesco",
+    "title": "UNESCO · Cadres de compétences en IA",
+    "date": "2026-10-07",
+    "url": "https://www.unesco.org/en/articles/what-you-need-know-about-unescos-new-ai-competency-frameworks-students-and-teachers",
+    "status": "Référence du guide, non recontrôlée",
+    "note": "Cadres 2024 ; vérifier la page avant de reprendre une affirmation précise."
+  }
+]

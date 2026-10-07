@@ -1,0 +1,27 @@
+[
+  {
+    "id": "besoin",
+    "title": "Besoin et public",
+    "description": "Le but, le destinataire et le résultat sont compréhensibles."
+  },
+  {
+    "id": "exactitude",
+    "title": "Sources et exactitude",
+    "description": "Faits vérifiés et incertitudes signalées."
+  },
+  {
+    "id": "controle",
+    "title": "Contrôle des données et actions",
+    "description": "Entrées limitées et validations explicites."
+  },
+  {
+    "id": "qualite",
+    "title": "Qualité du résultat",
+    "description": "Livrable conforme et utilisable."
+  },
+  {
+    "id": "comprehension",
+    "title": "Compréhension individuelle",
+    "description": "Correction expliquée et variante réussie sans aide."
+  }
+]

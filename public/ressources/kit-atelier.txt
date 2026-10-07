@@ -1,0 +1,118 @@
+ATELIER IA CITOYEN LN-IA
+Version candidate 0.1.0 · 7 octobre 2026
+Guide de référence : version 1.0
+
+SCÉNARIO DE TROIS HEURES
+0–15 min : Diagnostic et attentes
+Résultat : Une réponse individuelle de départ.
+
+15–35 min : Modèle, application et agent
+Résultat : Une reformulation avec les bons termes.
+
+35–60 min : Vérifier une affirmation
+Résultat : Une fiche de source et un verdict justifié.
+
+60–85 min : Apprendre avec un indice
+Résultat : Une solution expliquée sans assistance.
+
+85–95 min : Pause et rotation des rôles
+Résultat : Changer demandeur, opérateur, vérificateur et rapporteur.
+
+95–120 min : Déléguer une invitation
+Résultat : Une consigne avec périmètre et validations.
+
+120–150 min : Produire une fiche citoyenne
+Résultat : Une fiche d’une page avec sources.
+
+150–170 min : Relecture croisée
+Résultat : Deux corrections ou justifications précises.
+
+170–180 min : Bilan individuel
+Résultat : Une compétence à pratiquer cette semaine.
+
+ACTIVITÉS
+Vérifier une affirmation sur un modèle d’IA (25 min)
+Objectif : Distinguer ce que prouve une source de ce qu’elle ne permet pas d’affirmer.
+Consigne : Puisque GPT-6.1 Sol figure au catalogue API d’OpenAI, il est disponible dans toutes les offres ChatGPT.
+Lire l’affirmation et relever les mots « toutes les offres ».
+Ouvrir la source officielle, ou lire l’extrait embarqué ci-dessous.
+Choisir un verdict et citer le passage qui le justifie.
+Reformuler en conservant seulement ce qui est démontré.
+Résultat attendu : Un verdict justifié, une source datée et une reformulation exacte.
+Preuve embarquée : Synthèse de la page officielle consultée le 7 octobre 2026 : GPT-6.1 Sol est décrit comme un modèle pour des travaux complexes ; son identifiant API est gpt-6.1-sol. Cette page ne permet pas de conclure à sa présence dans toutes les offres ChatGPT.
+Corrigé : La source confirme un modèle et son identifiant API. Elle ne décrit pas l’accès dans toutes les offres ChatGPT. La disponibilité générale dans ces offres est donc non établie à partir de cette source. Reformulation : « GPT-6.1 Sol figure au catalogue API d’OpenAI, sous l’identifiant gpt-6.1-sol. L’accès dans une offre ChatGPT doit être vérifié séparément. »
+Réussite : La justification distingue API et application, cite la source et évite une généralisation.
+Référence guide : Exercice 1 et page annoncée 15
+
+Apprendre avec un indice (25 min)
+Objectif : Comprendre pourquoi deux variations opposées de 20 % ne s’annulent pas.
+Consigne : Un article coûte 200 dirhams. Son prix baisse de 20 %, puis augmente de 20 %. Revient-il au prix initial ?
+Écrire une première tentative sans assistance.
+Demander un indice sur la base de calcul, sans demander le résultat.
+Calculer le prix final et expliquer les deux bases.
+Résoudre sans outil la variante à 300 dirhams.
+Résultat attendu : Un prix final expliqué et une variante résolue sans aide.
+Corrigé : La baisse donne 200 × 0,8 = 160 DH. L’augmentation porte sur 160 : 160 × 1,2 = 192 DH. Le prix final est inférieur de 8 DH au prix initial. Pour 300 DH, le résultat est 288 DH. Les bases de calcul sont différentes.
+Réussite : Obtenir 192 DH et 288 DH, puis expliquer les bases sans assistance.
+Référence guide : Exercice 2 et page annoncée 15
+
+Déléguer une invitation (25 min)
+Objectif : Définir un périmètre et garder la décision de diffusion.
+Consigne : Une association prépare une invitation. Son programme est validé et elle possède une liste de contacts. Quelle consigne donner à un agent ?
+Préciser le résultat et les documents nécessaires.
+Conserver date, horaire et lieu ; signaler les informations manquantes.
+Prévoir une relecture du brouillon.
+Identifier les validations avant toute diffusion.
+Résultat attendu : Une consigne qui sépare rédaction et envoi.
+Corrigé : Utiliser seulement le programme pour rédiger. La liste de contacts est inutile à ce stade. Demander une invitation d’une page et une version courte, puis une relecture humaine. Un éventuel envoi nécessite une autorisation distincte, le contrôle des destinataires, du canal et du texte final.
+Réussite : Le programme est la seule entrée de rédaction et l’envoi reste soumis à validation.
+Référence guide : Exercice 3 et page annoncée 16
+
+Produire une fiche citoyenne (30 min)
+Objectif : Créer un contenu d’une page utile à un public précis.
+Consigne : Choisissez un besoin réel : expliquer une procédure, préparer une réunion ou vérifier une information.
+Décrire le lecteur, le besoin et le format.
+Choisir deux sources et retirer les données personnelles inutiles.
+Produire une première version, puis vérifier chaque fait essentiel.
+Faire relire et garder les corrections.
+Résultat attendu : Une fiche d’une page avec sources, date et limites.
+Corrigé : Exemple de démarche : fiche pour un parent sur la vérification d’une information. Indiquer auteur, date, source et passage justificatif ; distinguer fait et opinion ; conserver les incertitudes. Il n’existe pas un texte unique attendu : juger l’utilité, l’exactitude et la compréhension.
+Réussite : Le lecteur peut utiliser la fiche ; ses faits essentiels sont vérifiés et les limites sont explicites.
+Référence guide : Atelier trois heures, séquence 120 à 150 minutes
+
+GRILLE /20
+Besoin et public : 0 à 4. Le but, le destinataire et le résultat sont compréhensibles.
+Sources et exactitude : 0 à 4. Faits vérifiés et incertitudes signalées.
+Contrôle des données et actions : 0 à 4. Entrées limitées et validations explicites.
+Qualité du résultat : 0 à 4. Livrable conforme et utilisable.
+Compréhension individuelle : 0 à 4. Correction expliquée et variante réussie sans aide.
+Seuil proposé : 14/20, au moins 2 en exactitude et en contrôle. Validation humaine avant diffusion.
+
+SOURCES
+Guide source pédagogique LN-IA · 2026-10-07 · Référence pédagogique fournie
+ressources/guide-source-pedagogique-IA-LN-IA.docx
+Version 1.0 ; pagination annoncée dans le sommaire, non vérifiée par rendu.
+
+OpenAI · Catalogue des modèles API · 2026-10-07 · Consulté
+https://developers.openai.com/api/docs/models
+Le catalogue décrit l’API. Il ne démontre pas l’accès à chaque modèle dans toutes les offres ChatGPT.
+
+OpenAI · Tous les modèles · 2026-10-07 · Consulté
+https://developers.openai.com/api/docs/models/all
+Familles GPT-6, modèles image et audio confirmés dans le catalogue.
+
+OpenAI · GPT-6.1 Sol · 2026-10-07 · Consulté
+https://developers.openai.com/api/docs/models/gpt-6.1-sol
+Identifiant API gpt-6.1-sol. L’accès effectif dépend du compte et du produit.
+
+Bastani et al. · Generative AI without guardrails can harm learning · 2026-10-07 · Passages pertinents vérifiés
+https://hamsabastani.github.io/education_llm.pdf
+Étude en mathématiques en Turquie : baisse de 17 % à l’épreuve sans aide pour GPT Base. Ne pas généraliser à tout apprentissage.
+
+UIT · Facts and Figures 2025 · 2026-10-07 · Consulté
+https://www.itu.int/en/ITU-D/Statistics/Pages/facts/default.aspx
+2,2 milliards de personnes hors ligne : estimation pour 2025, pas pour 2026.
+
+UNESCO · Cadres de compétences en IA · 2026-10-07 · Référence du guide, non recontrôlée
+https://www.unesco.org/en/articles/what-you-need-know-about-unescos-new-ai-competency-frameworks-students-and-teachers
+Cadres 2024 ; vérifier la page avant de reprendre une affirmation précise.

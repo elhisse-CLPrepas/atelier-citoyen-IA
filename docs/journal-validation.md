@@ -56,3 +56,7 @@ Responsable : à renseigner.
 Commit examiné : à renseigner.
 Décision : en attente.
 URL publique et commit publié : à renseigner après déploiement.
+
+## Configuration du dépôt distant — 7 octobre 2026
+
+Dépôt indiqué par le propriétaire : https://github.com/elhisse-CLPrepas/atelier-citoyen-IA.git. Lecture git ls-remote réussie sans référence annoncée : dépôt apparemment vide au moment du contrôle. Connexion locale origin préparée ; aucun push ni déploiement. Chemin GitHub Pages à utiliser : /atelier-citoyen-IA/. Le workflow emploie déjà le nom réel du dépôt automatiquement. Les commandes du README ont été adaptées.

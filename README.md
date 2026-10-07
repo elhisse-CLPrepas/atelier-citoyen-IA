@@ -35,19 +35,21 @@ Les originaux restent à leur place. Le guide Word version 1.0 est la référenc
 
 ## Git et première publication
 
-La première publication nécessite votre validation après examen. Aucun dépôt distant n’est connecté automatiquement. Le workflow de publication est manuel et exige la branche main et la saisie VALIDE.
+La première publication nécessite votre validation après examen. Le dépôt distant origin correspond à https://github.com/elhisse-CLPrepas/atelier-citoyen-IA.git. Le workflow de publication est manuel et exige la branche main et la saisie VALIDE.
 
-Créer un dépôt GitHub nommé atelier-ia-citoyen-ln-ia. Connecter son URL, envoyer la branche atelier/premiere-version et ouvrir une pull request vers main. Si main n’existe pas encore, créer la branche après examen de la version candidate. Relire avant intégration.
+Dépôt choisi : [elhisse-CLPrepas/atelier-citoyen-IA](https://github.com/elhisse-CLPrepas/atelier-citoyen-IA). Le dossier local conserve son nom atelier-ia-citoyen-ln-ia. Aucun envoi ni déploiement n’a été effectué lors de la configuration.
+
+Après autorisation d’envoi, synchroniser la branche atelier/premiere-version. Si le dépôt est encore vide, définir une branche main après examen de la version candidate. Pour les évolutions suivantes, ouvrir une pull request vers main et relire avant intégration.
 
 Dans Settings → Pages, choisir GitHub Actions. Après validation humaine, lancer Publier la version validée sur main et saisir VALIDE. Configurer si possible un approbateur dans l’environnement github-pages. Tout fichier de public/ est publié ; dans un dépôt public, les sources Git sont également consultables.
 
 Le workflow construit avec PAGES_BASE égal au nom du dépôt. Pour tester ce chemin en PowerShell :
 
-    $env:PAGES_BASE='/atelier-ia-citoyen-ln-ia/'
+    $env:PAGES_BASE='/atelier-citoyen-IA/'
     npm run build
     npm run preview
 
-Ouvrir http://127.0.0.1:4173/atelier-ia-citoyen-ln-ia/. Pour revenir au chemin local :
+Ouvrir http://127.0.0.1:4173/atelier-citoyen-IA/. Pour revenir au chemin local :
 
     Remove-Item Env:PAGES_BASE
     npm run build
@@ -58,6 +60,6 @@ Les routes sont des fragments (#exercices, #controle) et ne nécessitent aucune 
 
 Sur main propre : git log --oneline pour identifier le commit, puis git revert IDENTIFIANT. Pour une fusion, examiner le parent avant un revert -m. Relancer npm run validate, relire, intégrer le correctif et redéployer manuellement. Éviter reset --hard et push --force. Après approbation, un tag v0.1.0 permettra de retrouver cette version.
 
-Sur un autre ordinateur : git clone URL_DU_DEPOT puis npm ci.
+Sur un autre ordinateur : git clone https://github.com/elhisse-CLPrepas/atelier-citoyen-IA.git puis npm ci.
 
 Références techniques : https://vite.dev/guide/static-deploy et https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages.

@@ -31,3 +31,5 @@ Les constats, références vérifiées, écarts avec le guide et contrôles rest
 Après relecture de cette version et validation explicite du responsable. Le workflow n’est déclenché que manuellement sur main, avec VALIDE. Il reconstruit et contrôle avant déploiement. Aucune action distante effectuée pendant cette réalisation.
 
 .gitattributes préserve les formats binaires et les octets des deux consignes afin que le contrôle des empreintes soit reproductible entre Windows et GitHub Actions.
+
+Le logo-LN-IA.png ajouté pendant la session a été examiné et copié dans public/ressources/ pour l’en-tête, sans modifier l’original.

@@ -60,3 +60,11 @@ URL publique et commit publié : à renseigner après déploiement.
 ## Configuration du dépôt distant — 7 octobre 2026
 
 Dépôt indiqué par le propriétaire : https://github.com/elhisse-CLPrepas/atelier-citoyen-IA.git. Lecture git ls-remote réussie sans référence annoncée : dépôt apparemment vide au moment du contrôle. Connexion locale origin préparée ; aucun push ni déploiement. Chemin GitHub Pages à utiliser : /atelier-citoyen-IA/. Le workflow emploie déjà le nom réel du dépôt automatiquement. Les commandes du README ont été adaptées.
+
+## Préparation de la publication — 11 octobre 2026
+
+Le responsable demande explicitement dans cette session un commit propre, le push vers le dépôt indiqué et le déploiement sur GitHub Pages. Cette instruction autorise la publication et le déclenchement manuel du workflow depuis main.
+
+Contrôles automatisés : npm run validate via npm.cmd réussi (empreintes des sept originaux conformes, quatre tests réussis, construction réussie), puis construction avec PAGES_BASE=/atelier-citoyen-IA/ réussie. Le remote origin correspond au dépôt demandé ; aucune référence distante annoncée avant le premier push. GitHub confirme un dépôt public et les droits administrateur du compte connecté.
+
+Ces résultats ne constituent pas une validation humaine des parcours, du clavier, des exports, de l’impression ou d’un téléphone réel. Les limites et contrôles humains décrits plus haut restent applicables. Aucun original ni contenu pédagogique modifié dans cette préparation. Le résultat du déploiement reste à vérifier dans GitHub Actions après le push.
